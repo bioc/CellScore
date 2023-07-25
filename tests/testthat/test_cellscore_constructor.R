@@ -2,9 +2,9 @@ context("CellScore Constructor")
 
 #if (!requireNamespace("BiocManager", quietly = TRUE))
 #  install.packages("BiocManager")
-#library(Biobase)
-#BiocManager::install("hgu133plus2CellScore")
-#library(hgu133plus2CellScore)
+library(Biobase)
+BiocManager::install("hgu133plus2CellScore")
+library(hgu133plus2CellScore)
 
 test_that("We can create a CellScore object from data", {
                  ## Locate the external data files in the CellScore package
