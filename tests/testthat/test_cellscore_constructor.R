@@ -3,7 +3,7 @@ context("CellScore Constructor")
 #if (!requireNamespace("BiocManager", quietly = TRUE))
 #  install.packages("BiocManager")
 library(Biobase)
-BiocManager::install("hgu133plus2CellScore")
+#BiocManager::install("hgu133plus2CellScore")
 library(hgu133plus2CellScore)
 
 test_that("We can create a CellScore object from data", {
