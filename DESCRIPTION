@@ -1,6 +1,6 @@
 Package: CellScore
 Title: Tool for Evaluation of Cell Identity from Transcription Profiles
-Version: 1.23.0
+Version: 1.24.0
 Authors@R: 
     c(
       person("Nancy", "Mah", email = "nancy.l.mah@googlemail.com", role = c("aut", "cre")),
