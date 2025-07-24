@@ -1,6 +1,6 @@
 Package: CellScore
 Title: Tool for Evaluation of Cell Identity from Transcription Profiles
-Version: 1.29.0
+Version: 1.29.1
 Authors@R: 
     c(
       person("Nancy", "Mah", email = "nancy.l.mah@googlemail.com", role = c("aut", "cre")),
@@ -35,3 +35,4 @@ RoxygenNote: 7.2.3
 NeedsCompilation: no
 Packaged: 2018-01-18 16:30:20 UTC; nmah
 Config/testthat/edition: 3
+PackageStatus: Deprecated
